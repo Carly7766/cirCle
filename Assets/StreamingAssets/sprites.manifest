@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 190091563
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0bb6cac83f47d532cc05891ce3de30cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Carly/C_Resource/Sprites/guidance.png
+- Assets/Carly/C_Resource/Sprites/Grid.png
+- Assets/Carly/C_Resource/Sprites/Button.png
+- Assets/Carly/C_Resource/Sprites/Bullet1.png
+- Assets/Carly/C_Resource/Sprites/StageGrid.png
+- Assets/Carly/C_Resource/Sprites/Circle.png
+- Assets/Carly/C_Resource/Sprites/Muzzle.png
+- Assets/Carly/C_Resource/Sprites/Joycon.png
+- Assets/Carly/C_Resource/Sprites/Square.png
+Dependencies: []
