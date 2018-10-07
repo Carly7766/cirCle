@@ -911,7 +911,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1225578283}
-  - component: {fileID: 1225578286}
   - component: {fileID: 1225578282}
   - component: {fileID: 1225578284}
   - component: {fileID: 1225578285}
@@ -998,6 +997,9 @@ MonoBehaviour:
   parameter:
     isAction: 0
     doNotTrun: 0
+    material: {fileID: 0}
+    moveSpeed: 20
+    accelSpeed: 3
     moveVel: {x: 0, y: 0, z: 0}
     oldVel: {x: 0, y: 0, z: 0}
   turrets: []
@@ -1021,18 +1023,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1225578286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1225578281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d56fe881bfb8b461c9f3973c97398c34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  a: 2
 --- !u!1 &2094896590
 GameObject:
   m_ObjectHideFlags: 0
