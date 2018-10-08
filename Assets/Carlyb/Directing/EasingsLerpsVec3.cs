@@ -2,7 +2,7 @@ using static System.Math;
 using UnityEngine;
 
 //こっちはVector3
-partial class EasingLerps {
+public partial class EasingLerps {
 		//詳しいことは↓を見るべし
 	//http://easings.net/
 

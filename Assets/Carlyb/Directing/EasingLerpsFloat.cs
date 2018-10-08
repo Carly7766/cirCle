@@ -2,7 +2,7 @@
 using UnityEngine;
 
 //こっちはfloat
-partial class EasingLerps {
+public partial class EasingLerps {
 	//詳しいことは↓を見るべし
 	//http://easings.net/
 
