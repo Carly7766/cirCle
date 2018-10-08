@@ -999,9 +999,9 @@ MonoBehaviour:
     doNotTrun: 0
     material: {fileID: 0}
     moveSpeed: 20
-    accelSpeed: 3
-    moveVel: {x: 0, y: 0, z: 0}
-    oldVel: {x: 0, y: 0, z: 0}
+    accelSpeed: 1
+    moveVel: {x: 0, y: 0}
+    oldVel: {x: 0, y: 0}
   turrets: []
 --- !u!50 &1225578285
 Rigidbody2D:
