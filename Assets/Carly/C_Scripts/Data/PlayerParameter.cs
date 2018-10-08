@@ -12,7 +12,7 @@ public class PlayerParameter {
 
 	public float moveSpeed, accelSpeed;
 
-	public Vector3 moveVel, oldVel;   //プレイヤーの移動量
+	public Vector2 moveVel, oldVel;   //プレイヤーの移動量
 
 	public void ResetVel() {
 		oldVel = moveVel;

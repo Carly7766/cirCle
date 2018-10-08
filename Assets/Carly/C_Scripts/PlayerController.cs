@@ -88,12 +88,11 @@ public class PlayerController : CustomMonoBehaviour {
 			//スティックの移動量から移動量を宣言
 			Vector2 inProcVel = new Vector2(inProcJoycon.GetStick()[0], inProcJoycon.GetStick()[1]) * parameter.moveSpeed;
 
-			//宣言した移動量と前の移動量を補間にかけ、MoveVelに加算
-			parameter.moveVel += EasingLerps.OutQuint(parameter.oldVel, inProcVel, parameter.accelSpeed * Time.fixedDeltaTime) / joycons.Count;
-
+			//スティックの入力値をジョイコンの数分格納
+			parameter.moveVel += (new Vector2(inProcJoycon.GetStick()[0], inProcJoycon.GetStick()[1]) * parameter.moveSpeed) / joycons.Count;
 		}
-		//加算した移動量を代入し、oldVelにvelを代入してMoveVelを初期化
-		rigidbody2D.velocity = parameter.moveVel;
+		//格納された値を補間して速度に代入
+		rigidbody2D.velocity = EasingLerps.InBack(parameter.oldVel, parameter.moveVel, parameter.accelSpeed * Time.fixedDeltaTime);
 		parameter.ResetVel();
 
 	}
