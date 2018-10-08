@@ -284,14 +284,4 @@ public partial class EasingLerps {
 
 		return b / 2 * ((float)Sqrt(1 - (t -= 2) * t) + 1) + a;
 	}
-
-
-	//Clamp
-	static float Clamp(float value, float min = 0.0f, float max = 1.0f) {
-		if(value > max) return 1.0f;
-		else
-		if(value < min) return 0.0f;
-
-		return value;
-	}
 }
