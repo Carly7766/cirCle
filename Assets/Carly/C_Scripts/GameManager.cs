@@ -6,5 +6,6 @@ public class GameManager : Singleton<GameManager> {
 
 	private void Awake() {
 		base.Awake();
+		Application.targetFrameRate = 60;
 	}
 }
